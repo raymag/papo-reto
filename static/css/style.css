@@ -81,11 +81,9 @@ body{
 	font-size: calc(10px + 1vh);
 	font-weight: 900;
 }
-
 #nickname-box{
 	padding: 15px;
 }
-
 #nickname-input {
 	border-radius: 5px;
 	background: purple;
