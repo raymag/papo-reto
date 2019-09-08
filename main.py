@@ -21,4 +21,4 @@ def receive_message(data):
 	emit('server_message', data, broadcast=True)
 
 if __name__ == '__main__':
-	socketio.run(app)
+	socketio.run(app, debug=True)

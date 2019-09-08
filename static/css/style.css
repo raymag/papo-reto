@@ -44,6 +44,21 @@ body{
 	height: 60vh;
 	background: #444;
 	overflow-y: scroll;
+	padding: 5px;
+	font-size: calc(10px + 1vh + 2vw);
+}
+
+#message-box p{
+	width: 100%;
+	line-height: 1.5em;
+	overflow-wrap: break-word;
+	padding: 5px 2px;
+	margin: 2px 0;
+	background: #4f4f4f;
+}
+#message-box span{
+	color: yellow;
+	font-weight: 900;
 }
 
 #input-box{
@@ -68,12 +83,17 @@ body{
 }
 
 #nickname-box{
-	padding: 5px;
+	padding: 15px;
 }
 
 #nickname-input {
 	border-radius: 5px;
 	background: purple;
 	color: white;
-	padding: 2px
+	padding: 2px;
+	font-size: calc(10px + 1vh + 1vw);
+}
+#nickname-label{
+	font-size: calc(10px + 1vh + 1vw);
+
 }
