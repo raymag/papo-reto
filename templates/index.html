@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<meta charset="utf-8">
 <head>
 <title>Papo Reto</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
 <link rel="icon" type="image/png" href="{{ url_for('static', filename='./images/icon.png') }}">
 </head>
 <body>
+	<a href="https://magnodev.netlify.com/"><img class="imghome" src="{{ url_for('static', filename='./images/home.png') }}"/></a>
 <script type="text/javascript" charset="utf-8">
 const socket = io();
 
@@ -30,7 +32,7 @@ socket.on('server_message', (data) => {
 
 	document.getElementById('message-box').appendChild(e);
 
-	
+
 	document.getElementById('message-box').scroll(0, document.getElementById('message-box').scrollHeight);
 });
 
@@ -63,10 +65,10 @@ function isPressingEnter(e){
 <section id="chat-box">
 	<section id="message-box">
 	</section>
-	
+
 	<section id="input-box">
 		<input type="text" autofocus onkeypress="return isPressingEnter(event)" required placeholder="Digite sua mensagem aqui" id="message-input">
-		<button type="button" id="send-button" onclick="sendMessage()" >>></button> 
+		<button type="button" id="send-button" onclick="sendMessage()" >>></button>
 	</section>
 </section>
 

@@ -7,7 +7,7 @@ body{
 	background: #202020;
 	color: #eee;
 	font-family: 'monospace';
-	line-height: 1.4em; 
+	line-height: 1.4em;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -93,5 +93,8 @@ body{
 }
 #nickname-label{
 	font-size: calc(10px + 1vh + 1vw);
-
+}
+.imghome{
+	height: 45px;
+	width: 50px;
 }
