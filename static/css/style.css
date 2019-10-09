@@ -4,7 +4,7 @@
 }
 
 body{
-	background: #202020;
+	background: #87CEFA;
 	color: #eee;
 	font-family: 'monospace';
 	line-height: 1.4em; 
@@ -75,8 +75,8 @@ body{
 }
 
 #send-button{
-	background: purple;
-	color: #f0f0a0;
+	background:#FFFACD;
+	color: #ecec73;
 	height: 100%;
 	font-size: calc(10px + 1vh);
 	font-weight: 900;
@@ -86,8 +86,8 @@ body{
 }
 #nickname-input {
 	border-radius: 5px;
-	background: purple;
-	color: white;
+	background: #f1f15fcc;
+	color: gray;
 	padding: 2px;
 	font-size: calc(10px + 1vh + 1vw);
 }
