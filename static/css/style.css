@@ -75,7 +75,7 @@ body{
 }
 
 #send-button{
-	background: rgb(85, 0, 0);
+	background: rgb(85, 2, 0);
 	color: #f0f0a0;
 	height: 100%;
 	font-size: calc(10px + 1vh);
