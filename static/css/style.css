@@ -57,7 +57,7 @@ body{
 	background: #4f4f4f;
 }
 #message-box span{
-	color: yellow;
+	color: rgb(2, 226, 255);
 	font-weight: 900;
 }
 
@@ -75,7 +75,7 @@ body{
 }
 
 #send-button{
-	background: purple;
+	background: rgb(85, 0, 0);
 	color: #f0f0a0;
 	height: 100%;
 	font-size: calc(10px + 1vh);
@@ -86,7 +86,7 @@ body{
 }
 #nickname-input {
 	border-radius: 5px;
-	background: purple;
+	background: rgb(85, 0, 0);
 	color: white;
 	padding: 2px;
 	font-size: calc(10px + 1vh + 1vw);
