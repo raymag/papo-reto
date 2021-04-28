@@ -4,8 +4,8 @@
 }
 
 body{
-	background: #202020;
-	color: #eee;
+	background: #fd0000;
+	color: rgb(0, 0, 0);
 	font-family: 'monospace';
 	line-height: 1.4em;
 	display: flex;
@@ -21,9 +21,9 @@ body{
 }
 
 #chat-box{
-	border: 2px solid #ccc;
+	border: 2px solid rgb(131, 131, 131);
 	border-radius: 10px;
-	box-shadow: 3px 4px 4px #111;
+	box-shadow: 3px 4px 4px rgb(56, 50, 50);
 }
 
 @media only screen and (max-width: 600px){
